@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    color: white;
+}
+
+h1{
+    margin-bottom: 10px;
+    font-size: 80px;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10vw;
+}
+
+.controls {
+    margin-top: 16px;
+}
+
+.button {
+    font-weight: bold;
+
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    margin-left: 4px;
+    cursor: pointer;
+    border: orange solid 1px;
+    font-size: 40px;
+}
+
+.set-alarm{
+    background-color: blue;
+}
+
+.clear-alarm{
+    background-color: blueviolet;
+}
+
+.calender{
+    background-color: whitesmoke;
+    font-size: 30px;
+    
+}
